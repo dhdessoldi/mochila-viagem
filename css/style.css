@@ -130,3 +130,26 @@ html {
     font-weight: 400;
 }
 
+@media screen and (max-width: 1024px) {
+    html {
+        background: #06182D;
+    }
+
+    .conteudo {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .principal {
+        min-width: 0px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .mochila {
+        display: block;
+        align-self: center;
+    }
+
+}
+
